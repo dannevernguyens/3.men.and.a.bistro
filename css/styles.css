@@ -18,7 +18,7 @@ li{
 /*Custom Styles*/
 
 header{
-    background-color: rgba(255, 183, 49, 0.904);
+    background-color: #e8861e;
     height: 100px;
 }
 
@@ -34,7 +34,7 @@ nav li a{
 }
 
 nav li a:hover{
-    color: purple;
+    color: white;
 }
 
 nav p{
@@ -62,7 +62,8 @@ main li:last-child{
 }
 
 footer{
+    padding-top 100px;
     height: 100px;
-    background-color: rgba(255, 183, 49, 0.904);
+    background-color: #e8861e;
 }
 
