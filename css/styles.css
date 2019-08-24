@@ -37,6 +37,14 @@ nav li a:hover{
     color: white;
 }
 
+footer a{
+color: black
+}
+
+footer a:hover{
+    color: white;
+}
+
 nav p{
     float: right;
 }
@@ -65,5 +73,9 @@ footer{
     margin-top: 200px;
     height: 100px;
     background-color: #e8861e;
+}
+
+footer p{
+   margin-left: 50px;
 }
 
