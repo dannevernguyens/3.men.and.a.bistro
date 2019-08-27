@@ -1,4 +1,4 @@
-// this will change the h3 depending on time of day
+// this will change the h3 depending on time of day input
 var hourNow = prompt("What time is it? (military time)");
 var greeting;
 

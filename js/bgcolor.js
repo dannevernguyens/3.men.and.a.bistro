@@ -11,4 +11,4 @@ if (hourNow > 12) {
    color = '#black';
 }
 
-document.style('background-color: #'color;);
+document.style('background-color:' + color ';');
