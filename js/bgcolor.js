@@ -1,15 +1,14 @@
-// this should change the color of the background based on time of day input
+// this should change the color of the background based on time of day 
+var today = new Date();                 // Create a new date object
+var hourNow = today.getHours();         // Find the current hour
 var color;
-var hourNow;
 
 if (hourNow > 12) {
-    color = background-color: #blue;
-    }
+    color = '#blue';
 } else if (hourNow > 0) {
-    color = background-color: #white;
-    }
+    color = '#white';
 } else {
-   color = background-color: #black;
+   color = '#black';
 }
 
-document.style('color');
+document.style('background-color: #'color;);
