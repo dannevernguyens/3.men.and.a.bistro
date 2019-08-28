@@ -4,9 +4,9 @@ var hourNow = today.getHours();         // Find the current hour
 var color;
 
 if (hourNow > 12) {
-    color = 'blue';
+    color = 'lightblue';
 } else if (hourNow > 0) {
-    color = 'black';
+    color = 'lightred';
 } else {
    color = 'green';
 }
