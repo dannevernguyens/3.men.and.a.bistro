@@ -4,11 +4,12 @@ var hourNow = today.getHours();         // Find the current hour
 var color;
 
 if (hourNow > 12) {
-    color = '#blue';
+    color = 'blue';
 } else if (hourNow > 0) {
-    color = '#white';
+    color = 'black';
 } else {
-   color = '#black';
+   color = 'green';
 }
 
-document.style('background-color:' + color ';');
+// document.write('<h2> Your favorite color is: ' + color + '</h2>');
+document.body.style.backgroundColor = color;
