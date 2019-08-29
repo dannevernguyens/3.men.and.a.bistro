@@ -8,7 +8,7 @@ if (hourNow > 12) {
 } else if (hourNow > 0) {
     color = 'lightred';
 } else {
-   color = 'green';
+   color = 'lightgreen';
 }
 
 // document.write('<h2> Your favorite color is: ' + color + '</h2>');
