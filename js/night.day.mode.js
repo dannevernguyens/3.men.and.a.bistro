@@ -1,6 +1,7 @@
 // this function should both change the bg color and the greeting within the same call
 var hourNow = prompt("What time is it? (military time)");
 var greeting;
+var color;
 
 // build something here to ensure they put in number
 
@@ -39,4 +40,15 @@ function setDefault() {
     color = 'grey';
     greeting = 'Your friendly neighborhood institution!';
     console.log(color + greeting);
+}
+
+document.body.style.backgroundColor = color;
+document.write('<h3>'+ greeting +'</h3>');
+
+// should create a pop-up that creates boolean response to Hungry y/n?
+var hungry = confirm("Are you ready for a dope meal?");
+if (hungry == true) {
+alert("Welcome to food time!");
+} else {
+  alert("OKAY FINE!")
 }
