@@ -25,19 +25,19 @@ if (hourNow > 12) {
 }
 
 function setLateNightMode() {
-    color = 'lightblue';
+    color = 'lightgrey';
     greeting = 'Your friendly neighborhood dinner and late-nite bite destination!';
     console.log(color + greeting);
 }
 
 function setDayMode() {
-    color = 'white';
+    color = 'lightblue';
     greeting = 'Your friendly neighborhood breakfast and lunch destination';
     console.log(color + greeting);
 }
 
 function setDefault() {
-    color = 'grey';
+    color = 'purple';
     greeting = 'Your friendly neighborhood institution!';
     console.log(color + greeting);
 }
