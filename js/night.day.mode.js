@@ -2,19 +2,11 @@
 var hourNow = prompt("What time is it? (military time)");
 var greeting;
 var color;
+while( isNaN(hourNow) )
+    hourNow = prompt("Please enter a number between 0 and 24");
 
-// build something here to ensure they put in number
+// the stuff above should ensure that only numbers are entered for the time prompt
 
-if (hourNow > 12) {
-    color = 'lightblue';
-    greeting = 'Your friendly neighborhood dinner and late-nite bite destination!';
-} else if (hourNow > 0) {
-    color = 'lightred';
-    greeting = 'Your friendly neighborhood breakfast and lunch destination!';
-} else {
-    color = 'lightgreen';
-    greeting = 'Your friendly neighborhood institution!';
-}
 
 if (hourNow > 12) {
     setLateNightMode();
