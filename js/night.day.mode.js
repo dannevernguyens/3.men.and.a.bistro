@@ -5,7 +5,7 @@ var color;
 while( isNaN(hourNow) )
     hourNow = prompt("Please enter a number between 0 and 24");
 
-// the stuff above should ensure that only numbers are entered for the time prompt
+// the WHILE above should ensure that only numbers are entered for the time prompt
 
 
 if (hourNow > 12) {
@@ -44,3 +44,4 @@ alert("Welcome to food time!");
 } else {
   alert("OKAY FINE!")
 }
+
